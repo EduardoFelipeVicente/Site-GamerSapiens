@@ -1,0 +1,133 @@
+form {
+    font-family: fantasy;
+    margin: 30px;
+    text-align: center;
+}
+
+
+form label, form p {
+    display: block;
+    font-size: 30px;
+    margin: 10px 0 0 5px;
+}
+
+.input-padrao {
+    display: flex;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.opcaoparacontato {
+    display: inline-block;
+    width: 50%;
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.radio {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.select {
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 0 20px 0;
+    text-align: center;
+}
+
+#mensagem {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 102%;
+    text-align: center;
+}
+
+#nomecompleto {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+#email {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+#telefone {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+#opcoesatendimento {
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+.botaoenviar {
+    width: 100%;
+    padding: 15px 0;
+    background: #865718;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+    transition: 0.5s all;
+    border: none;
+}
+
+.botaoenviar:hover {
+    background: #bb7111;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.selectbox {
+    font-family: fantasy;
+    font-size: 25px;
+    margin: 10px;
+}
+
+table {
+    margin: 20px 0 40px;
+    text-align: center;
+    width: 100%;
+}
+
+td, th {
+    font-family: fantasy;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.horarioatendimento {
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 20% 20px 0;
+    text-align: center;
+}
+
+
+
