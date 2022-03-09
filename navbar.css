@@ -1,9 +1,7 @@
 
 .gamersapiensFont {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1000px;
+    font-size: 60px !important;
+    color: chartreuse !important;
 }
 
-.fontsize {
-    font-size: 100px;
-}

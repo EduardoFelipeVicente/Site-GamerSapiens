@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <title>GamerSapiens - CPU</title>
     <link rel="stylesheet" href="reset.css">       
-    <link rel="stylesheet" href="style-home.css">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-      <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -24,41 +24,40 @@
         
     <header>
 
-        <nav class="nav-extended #000000 black">
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo gamersapiensFont">GamerSapiens</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down" class="fontsize">
-              <li><a href="index.html" >Home</a></li>
-              <li><a href="servicos.html">Serviços</a></li>
-              <li><a href="contato.html">Contato</a></li>
-            </ul>
-          </div>
+      <nav class="nav-extended #000000 black">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo gamersapiensFont">GamerSapiens</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down" class="fontsize">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
 
-          <div class="nav-content">
-            <ul class="tabs tabs-transparent">
-              <li class="tab"><a href="entendaseupc.html">Conheça seu PC</a></li>
-              <li class="tab" ><a href="cpu.html">CPU</a></li>
-              <li class="tab"><a href="ram.html">RAM</a></li>
-              <li class="tab"><a href="mobo.html">MOBO</a></li>
-              <li class="tab"><a href="vga.html">VGA</a></li>
-              <li class="tab"><a href="hdssd.html">HD/SSD</a></li>
-              <li class="tab"><a href="fonte.html">Fonte</a></li>
-              <li class="tab"><a href="case.html">Case</a></li>
-              <li class="tab"><a href="cooler.html">Cooler/Fan</a></li>
-              <li class="tab"><a href="outros.html">Outros</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-   </header>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="entendaseupc.html">Conheça seu PC</a></li>
+            <li class="tab"><a href="cpu.html">CPU</a></li>
+            <li class="tab"><a href="ram.html">RAM</a></li>
+            <li class="tab"><a href="mobo.html">MOBO</a></li>
+            <li class="tab"><a href="vga.html">VGA</a></li>
+            <li class="tab"><a href="hdssd.html">HD/SSD</a></li>
+            <li class="tab"><a href="fonte.html">Fonte</a></li>
+            <li class="tab"><a href="case.html">Case</a></li>
+            <li class="tab"><a href="cooler.html">Cooler/Fan</a></li>
+            <li class="tab"><a href="outros.html">Outros</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </head>
 
 
 
-  <div class="body-cpu">
+  <div>
     <body>
-      <h2 class="body-cpu">Você sabe o que é um CPU?</h2>
+      <h2>Você sabe o que é um CPU?</h2>
       <p>CPU é a silga para <b>Central Process Unit</b>, ou Unidade Central de Processamento. É muito comum usar a denominação Processador também.</p>
 
       <p>Um processador é o "cérebro" de seu computador, notebook, TV, smartphone... É nele que todas as informações são recebidas e interpretadas. Cada CPU é unico, mesmo que seja da mesma marca e modelo, por conta de seu processo de fabricação. Alguns aquecem mais, outros menos, mas sempre que você comprar um, a empresa responsável pela sua manufatura garante que todos os do mesmo modelo atendam um requisito mínimo de desempenho.</p>
@@ -69,7 +68,7 @@
 
       <p><b>Thread: </b>também conhecidos como núcleos lógicos, é como se "pegasse" o que sobra de poder de processamento dos núcleos e fizessem outro núcleo, só que não é físico, é virtual. Daí vem as denomiações 4/8 ou 6/12 dos processadores, são 4 núcleos físicos e 8 núcleos lógicos que o processador pode utilizar. Mas atenção, nem todo o processador possui o Hyperthreading(função que possibilita ter núcleos lógicos além dos físicos) ativo, alguns processadores mais simples podem ser 2/2 ou 4/4 por exemplo.</p>
 
-      <p><b>Clock: </b>em tradução livre singinifca relógio, no mundo dos computadores se referem a quantos cálculos por segundo o processador é capaz de fazer(se o CPU tiver 4 núcleos por exemplo, ele poderá fazer 4x mais cálculos por segundo tendo o mesmo clock que um CPU de 1 núcleo). Normalmente você verá um número com a formatação @<b>X,X </b>Ghz.Geralmente utiliza-se a unidade de medida em GHz(giga hertz), cada GHz é o equivalente a 1 bilhão de ações por segundo. Por exemplo, um processador 8/16 @4,5 GHz pode, teoricamente, fazer até 72 bilhões de cálculo em um segundo, ou pensando de um jeito mais legal, 24 bilhões de cálculos cada vez que você pisca o olho.</p>
+      <p><b>Clock: </b>em tradução livre significa relógio, no mundo dos computadores se referem a quantos cálculos por segundo o processador é capaz de fazer(se o CPU tiver 4 núcleos por exemplo, ele poderá fazer 4x mais cálculos por segundo tendo o mesmo clock que um CPU de 1 núcleo). Normalmente você verá um número com a formatação @<b>X,X </b>Ghz.Geralmente utiliza-se a unidade de medida em GHz(giga hertz), cada GHz é o equivalente a 1 bilhão de ações por segundo. Por exemplo, um processador 8/16 @4,5 GHz pode, teoricamente, fazer até 72 bilhões de cálculo em um segundo, ou pensando de um jeito mais legal, 24 bilhões de cálculos cada vez que você pisca o olho.</p>
 
       <p><b>Socket: </b> ou soquete, nada mais é que o encaixe físico da CPU. Cada empresa tem uma nomeclatura para as diversas gerações, se você comprar um processador incompatível com a placa mãe, ele não irá encaixar, e se forçar, você pode estragar seu CPU e perder a garantia.</p>
 
