@@ -1,7 +1,23 @@
 
-.gamersapiensFont {
+a.brand-logo.gamersapiensFont {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 60px !important;
-    color: chartreuse !important;
+    font-size: 150px;
+    color: chartreuse;
+    padding-top: 35px;
 }
+
+nav ul a {
+    font-size: 50px;
+    color:chartreuse;
+    padding-top: 1px;
+    display: flex;
+}
+
+ul.tabs.tabs-transparent {
+   height: 150px;
+   padding-top: 100px;
+}
+
+
+
 

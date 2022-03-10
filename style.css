@@ -17,7 +17,7 @@ form label, form p {
     padding: 10px 25px;
     width: 100%;
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 10px;
     text-align: center;
 }
 
@@ -86,11 +86,10 @@ form label, form p {
 }
 
 .botaoenviar {
-    width: 100%;
+    width: 50%;
     padding: 15px 0;
-    background: #865718;
+    background: chartreuse;
     font-family: fantasy;
-    color: white;
     font-size: 20px;
     border-radius: 18px;
     transition: 0.5s all;
@@ -98,9 +97,10 @@ form label, form p {
 }
 
 .botaoenviar:hover {
-    background: #bb7111;
+    background: rgb(3, 107, 12);
     cursor: pointer;
     transform: scale(1.2);
+    color: white;
 }
 
 .selectbox {
