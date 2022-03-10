@@ -132,3 +132,13 @@ td, th {
 .tabs .tab a {
     font-size: 20px;
 }
+
+.body, p {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
